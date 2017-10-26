@@ -16,7 +16,7 @@ def create_app(config_name):
         #return render_template('saludo.html')
         return 'Hola desde la funcion saludo de la aplicacion'
      
-    @app.route('//user/<username>')
+    @app.route('/user/<username>')
     def user(username):
         #return render_template('user.html', username=username)
         return 'Hola desde la función user de la aplicacion, {}'.format(username)
