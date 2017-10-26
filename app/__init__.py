@@ -23,7 +23,6 @@ def create_app(config_name):
 
 
 
-
     # Configuracion de los BluePrints
     from app.primerblueprint import primerblueprint
     app.register_blueprint(primerblueprint)
